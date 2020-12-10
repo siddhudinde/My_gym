@@ -1,0 +1,272 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+.topbar
+{
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+    letter-spacing: 0.1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+.logo
+{
+    padding: 10px;
+}
+.slogan1
+{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-family: 'Syne Mono', monospace;
+}
+.slogan2
+{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-family: 'Syne Mono', monospace;
+}
+.buttons
+{
+    position: absolute;
+    top: 225px;
+    left: 150px;
+    font-family: 'Syne Mono', monospace;
+    height: 50px;
+}
+.dumbbell1
+{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 115px;
+    left: 30px;
+}
+.cards
+{
+    margin: -80px;
+}
+
+/* 
+.card
+{
+    height: 350px;
+    width: 280px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+.card:hover
+{
+    transform: rotateY(180deg);
+}
+.front
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    backface-visibility: hidden;
+
+}
+.back
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+} */
+.card
+{
+    height: 370px;
+    width: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s;
+    margin-top: -80px;
+    background-color: orange;
+    font-family: 'Syne Mono', monospace;
+}
+
+.card:hover
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.front
+{   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+
+}
+.back
+{   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.fcont
+{
+    padding: 20px;
+}
+.bcont
+{
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;;
+}
+.slogenhead
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 3.0rem;
+    background-image: url(https://media.giphy.com/media/l0CLUrZiblFUBMMrC/giphy.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.massage
+{
+    margin-left: 250px;
+    margin-top: 30px;
+    font-family: 'Syne Mono', monospace;
+    width: 150vh;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.team
+{
+    font-family: 'Teko', sans-serif;
+    background-image: url(https://scene360.com/wp-content/uploads/2015/11/cool-animated-gif-08.gif);
+    background-size: cover;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}
+.teamcard
+{
+    height: 300px;
+    width: 270px;
+    background-color: orange;
+    margin: 40px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border: 1px solid white;
+}
+.teamfront
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.content1
+{
+    background-color: #f39325;
+    padding: 15px;
+    font-family: 'Syne Mono', monospace;
+}
+.content2
+{
+    background-color:  #5cdb95;
+    padding: 15px;
+    font-family: 'Syne Mono', monospace;
+}
+.teamcard:hover
+{
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+.foot1
+{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(248, 54, 54);
+    margin-top: 155px;
+    
+}
+.asd
+{
+    display: flex;
+    position: relative;
+    top: 180px;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+
+}
+.asf
+{
+    display: flex;
+    position: relative;
+    top: 180px;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    width: 600px;
+    left: 355px;
+}
+.asg
+{
+    display: flex;
+    position: relative;
+    top: 180px;
+    justify-content: center;
+    width: 300px;
+    left: 492px;
+}
+.foot2
+{
+    width: 100%;
+    height: 260px;
+    background-color: whitesmoke;
+}
+.sponsor
+{
+    display: flex;
+    position: relative;
+    top: 90px;
+    justify-content: center;
+    
+}
+.github
+{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 140px;
+    left: 500px;
+}
+.twitter
+{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 140px;
+    left: 550px;
+}
+.facebbok
+{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 140px;
+    left: 600px;
+}
+.foot3
+{
+    width: 100%;
+    height: 190px;
+    background-color: gray;
+    padding: 30px;
+}
